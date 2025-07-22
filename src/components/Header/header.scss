@@ -1,0 +1,111 @@
+$orange-color: #F9AD2F;
+
+.header-top {
+    background: #1A3059;
+    color: #fff;
+
+    .top-left {
+
+        .bold-text {
+            font-weight: 500;
+        }
+
+        ul {
+            li {
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .social-style-one {
+        a {
+            color: $orange-color;
+        }
+    }
+}
+
+.btn-get {
+    background-color: $orange-color;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 12px;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    border-color: $orange-color;
+    color: #162E55 !important;
+
+    &:hover {
+        background: #1A3059;
+        border-color: #fff;
+        color: #fff !important;
+    }
+}
+
+.btn-get2 {
+    background-color: #1A3059;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    border: 2px solid #1A3059;
+    color: #fff !important;
+
+    &:hover {
+        background: #fff;
+        border-color: #1A3059;
+        color: #1A3059 !important;
+    }
+}
+
+.btn_wiggle {
+    animation: wiggle 2s linear infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: wiggle;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}

@@ -1,0 +1,43 @@
+.main-navigation {
+
+    li {
+
+        a {
+            padding-left: 6px;
+            padding-right: 6px;
+            font-size: 14px;
+
+            &:hover {
+
+                background-color: #fff;
+                font-size: 14px;
+                font-weight: bold !important;
+                border-radius: 10px;
+                padding-left: 6px;
+                padding-right: 6px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                border: 2px solid #040025;
+                color: #040025 !important;
+            }
+        }
+    }
+}
+
+.nav-home-one.restly-header-main-menu .sub-menu>li {
+    margin-right: 0px !important;
+}
+
+.actve-menu-top {
+
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: bold !important;
+    border-radius: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 2px solid #040025;
+    color: #040025 !important;
+}
