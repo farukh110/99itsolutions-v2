@@ -1,0 +1,52 @@
+.focused-section {
+
+    background: #000C38;
+}
+
+.focused-container {
+
+    width: 100%;
+
+    h2 {
+        font-weight: bold;
+    }
+
+    img {
+        height: 40px;
+    }
+
+    .text-navy-blue {
+        color: #1A3059;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .focused-container {
+
+        h5 {
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+
+    .focused-container {
+
+        h2 {
+            font-size: 26px;
+        }
+
+        img {
+            margin: 0 auto;
+            display: table;
+        }
+
+        h5 {
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+}
