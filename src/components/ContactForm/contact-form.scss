@@ -1,0 +1,80 @@
+.contact-form-section {
+
+    h2 {
+        font-weight: bold;
+    }
+}
+
+.custom-form {
+
+    input {
+        background: transparent;
+        color: #828282;
+        border-color: #E0E0E0;
+        border-radius: 0px;
+
+        &::placeholder {
+            color: #828282;
+        }
+
+        &:focus {
+            background: transparent;
+            color: #1A3059;
+            border-color: #1A3059;
+        }
+    }
+
+    select {
+        background: transparent;
+        color: #828282;
+        border-color: #E0E0E0;
+        border-radius: 0px;
+
+        option {
+            background: #162E55;
+            color: #fff;
+            border-color: #162E55;
+        }
+
+        &:focus {
+            background: transparent;
+            color: #1A3059;
+            border-color: #1A3059;
+        }
+    }
+
+    .custom-text-area {
+        height: 210px;
+        resize: none;
+        background: transparent;
+        color: #828282;
+        border-color: #E0E0E0;
+        border-radius: 0px;
+
+        &::placeholder {
+            color: #828282;
+        }
+    }
+
+    button {
+        background: #162E55;
+        color: #fff;
+        border-color: #162E55;
+
+        &:hover {
+            background: #fff;
+            border-color: #fff;
+            color: #162E55;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+
+    .contact-form-section {
+        h2 {
+            font-weight: bold;
+            font-size: 26px;
+        }
+    }
+}

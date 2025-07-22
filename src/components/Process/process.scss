@@ -1,0 +1,123 @@
+.process-section {
+
+    h2 {
+        font-weight: bold;
+    }
+
+    button {
+        border-radius: 5px;
+        border: 1px solid #DDDDDD;
+        background: #fff;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color: #000000;
+
+        img {
+
+            width: 45px;
+        }
+
+        &:hover {
+            background: #162E55;
+            border-color: #162E55;
+            box-shadow: 0 5px 15px 0 #172258b3;
+            color: #fff;
+
+            img {
+
+                filter: invert(99%) sepia(0%) saturate(7494%) hue-rotate(194deg) brightness(101%) contrast(103%);
+            }
+        }
+
+        &:active {
+            background: #162E55 !important;
+            border-color: #162E55 !important;
+            box-shadow: 0 5px 15px 0 #172258b3;
+            color: #fff;
+
+            img {
+
+                filter: invert(99%) sepia(0%) saturate(7494%) hue-rotate(194deg) brightness(101%) contrast(103%);
+
+            }
+        }
+    }
+
+    .btn-primary {
+        background: #162E55 !important;
+        border-color: #162E55 !important;
+        box-shadow: 0 5px 15px 0 #172258b3;
+        color: #fff;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        img {
+
+            filter: invert(99%) sepia(0%) saturate(7494%) hue-rotate(194deg) brightness(101%) contrast(103%);
+            width: 45px;
+        }
+    }
+
+    .progress {
+        // background: #162E55;
+        --bs-progress-bar-bg: #162E55;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .process-section {
+        h2 {
+            font-size: 26px;
+        }
+
+        button {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 14px;
+
+            img {
+                width: 50px;
+            }
+        }
+
+        .btn-primary {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 14px;
+
+            img {
+                width: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+
+    .process-section {
+        h2 {
+            font-size: 26px;
+        }
+
+        button {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 14px;
+
+            img {
+                width: 30px;
+            }
+        }
+
+        .btn-primary {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 14px;
+
+            img {
+                width: 30px;
+            }
+        }
+    }
+}
