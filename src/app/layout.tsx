@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import '../assets/scss/main.scss';
 import '../assets/scss/style.scss';
 import '../assets/scss/style2.scss';
