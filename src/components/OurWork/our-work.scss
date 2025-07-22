@@ -1,0 +1,58 @@
+.portfolio-home-section {
+
+    h2 {
+        font-weight: bold;
+    }
+
+    button {
+        border-radius: 5px;
+        background: #162E55;
+        color: #fff;
+
+        &:hover {
+            background: #F9AD2F;
+            border-color: #F9AD2F;
+        }
+
+        &:active {
+            background: #F9AD2F !important;
+            border-color: #F9AD2F !important;
+        }
+    }
+
+    .active {
+        background: #F9AD2F !important;
+        border-color: #F9AD2F !important;
+    }
+}
+
+.gallery-item.style-four {
+    margin-bottom: 30px;
+    height: 270px;
+}
+
+.gallery-item img {
+    height: 270px;
+    object-fit: cover;
+}
+
+@media(max-width: 480px) {
+
+    .portfolio-home-section {
+
+        button {
+            height: 48px;
+            font-size: 12px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .portfolio-home-section {
+
+        button {
+            font-size: 12px;
+        }
+    }
+}

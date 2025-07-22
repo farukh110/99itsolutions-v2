@@ -1,0 +1,94 @@
+.technologies {
+    background: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-size: 36px;
+        font-weight: bold;
+        color: #162E55;
+    }
+
+
+    .tech-column {
+        transition: all 0.3s;
+
+        &:hover {
+            background: #F7AA23;
+        }
+    }
+
+    img {
+        height: 130px;
+    }
+
+}
+
+.custom-tabs {
+
+    .ant-tabs-tab-btn {
+
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+
+        &:active {
+
+            color: #162E55 !important;
+        }
+    }
+
+    .ant-tabs-tab-active {
+
+        .ant-tabs-tab-btn {
+            color: #162E55 !important;
+            text-shadow: 0 0 0.25px #162E55;
+        }
+
+    }
+
+    .ant-tabs-ink-bar {
+        background: #162E55 !important;
+    }
+
+    .ant-tabs-tab {
+
+        &:hover {
+
+            color: #162E55 !important;
+        }
+
+        &:active {
+
+            color: #162E55 !important;
+        }
+    }
+}
+
+.icon-column {
+
+    .custom-icon {
+
+        height: 70px;
+        margin: 0 auto;
+        display: table;
+        width: 70px;
+        object-fit: contain;
+    }
+
+    .techstack-p {
+
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .technologies {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+}
