@@ -78,14 +78,14 @@ const HomeBanner: React.FC = () => {
                                     target="_blank"
                                     rel="noopener nofollow"
                                 >
-                                    {/* <Image
+                                    <Image
                                         data-lazyloaded={1}
-                                        src="https://www.softlabsgroup.com/img/clutch-rating-svg.webp"
+                                        src="/images/home-banner/clutch-rating-svg.webp"
                                         alt="Clutch"
                                         width={99}
                                         height={56}
                                         className="entered litespeed-loaded"
-                                    /> */}
+                                    />
                                 </a>
                             </div>
                             <div className="ratings-box">
