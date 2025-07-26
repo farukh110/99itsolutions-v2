@@ -41,7 +41,7 @@ const Process: React.FC = () => {
                                 className={getButtonClass(item.key as TabType)}
                                 onClick={() => setCurrentTab(item.key as TabType)}
                             >
-                                <Image src={item.icon} alt={item.label} width={64} height={64} />
+                                <Image src={item.icon} alt={item.label} width={64} height={64} style={{ height: "auto", width: "auto" }} />
                                 <br />
                                 {item.label}
                             </button>
@@ -144,7 +144,7 @@ const Process: React.FC = () => {
 
 interface SectionProps {
     id: string;
-    image: string; // ✅ use string instead of StaticImageData
+    image: string;
     subtitle?: string;
     title: string;
     description: string;

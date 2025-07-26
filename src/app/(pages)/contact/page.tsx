@@ -53,7 +53,7 @@ const Contact: React.FC = () => {
                     {/** PHONE */}
                     <div className="row contact_detail_info">
                       <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
-                        <Image src="/images/contact/icons/phone.png" alt="Phone" width={24} height={24} />
+                        <Image src="/images/contact/icons/phone.png" alt="Phone" width={24} height={24} style={{ height: "auto", width: "auto" }} />
                       </div>
                       <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
                         <span className="bold_text">PHONE:</span>
@@ -67,7 +67,7 @@ const Contact: React.FC = () => {
                     {/** EMAIL */}
                     <div className="row contact_detail_info mt-xl-3">
                       <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
-                        <Image src="/images/contact/icons/email.png" alt="Email" width={24} height={24} />
+                        <Image src="/images/contact/icons/email.png" alt="Email" width={24} height={24} style={{ height: "auto", width: "auto" }} />
                       </div>
                       <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
                         <span className="bold_text">EMAIL:</span>
@@ -81,7 +81,7 @@ const Contact: React.FC = () => {
                     {/** OFFICE */}
                     <div className="row contact_detail_info mt-xl-3">
                       <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
-                        <Image src="/images/contact/icons/time.png" alt="Office" width={24} height={24} />
+                        <Image src="/images/contact/icons/time.png" alt="Office" width={24} height={24} style={{ height: "auto", width: "auto" }} />
                       </div>
                       <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
                         <span className="bold_text text-uppercase">Office:</span>
@@ -96,7 +96,7 @@ const Contact: React.FC = () => {
                     {/** OPEN HOURS */}
                     <div className="row contact_detail_info mt-xl-3">
                       <div className="col-xxl-1 col-xl-2 col-lg-2 col-md-1 col-sm-2 col-3 contact_icon">
-                        <Image src="/images/contact/icons/location.png" alt="Open Hours" width={24} height={24} />
+                        <Image src="/images/contact/icons/location.png" alt="Open Hours" width={24} height={24} style={{ height: "auto", width: "auto" }} />
                       </div>
                       <div className="col-xxl-11 col-xl-10 col-lg-10 col-md-11 col-sm-10 col-9 pe-xl-4 pe-sm-3 pe-3 contact_no text-white">
                         <span className="bold_text text-uppercase">Open Hours:</span>
@@ -182,18 +182,18 @@ const Contact: React.FC = () => {
               <div className="contact_img">
                 <div className="row">
                   <div className="col-md-6">
-                    <Image className="hands" src="/images/contact/img-1.png" alt="Contact Illustration" width={379} height={260} />
+                    <Image className="hands" src="/images/contact/img-1.png" alt="Contact Illustration" width={379} height={260} style={{ objectFit: "contain" }} />
                   </div>
                 </div>
 
                 <div className="row">
                   <div className="col-md-2"></div>
                   <div className="col-md-2 mt-4">
-                    <Image className="quote_img" src="/images/contact/quote.svg" alt="Quote" width={234} height={70} />
-                    <Image className="contact_left study" src="/images/contact/img-3.png" alt="Study" width={230} height={217} />
+                    <Image className="quote_img" src="/images/contact/quote.svg" alt="Quote" width={234} height={70} style={{ objectFit: "contain" }} />
+                    <Image className="contact_left study" src="/images/contact/img-3.png" alt="Study" width={230} height={217} style={{ objectFit: "contain" }} />
                   </div>
                   <div className="col-md-1">
-                    <Image className="design" src="/images/contact/img-2.png" alt="Design" width={252} height={406} />
+                    <Image className="design" src="/images/contact/img-2.png" alt="Design" width={252} height={406} style={{ objectFit: "contain" }} />
                   </div>
                 </div>
               </div>

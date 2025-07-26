@@ -62,6 +62,7 @@ const Outsourcing: React.FC = () => {
                                 height={64}
                                 className="pb-2"
                                 loading="lazy"
+                                style={{ height: "auto", width: "auto" }}
                             />
                             <p className="p-18px">{feature.label}</p>
                         </div>

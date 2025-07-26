@@ -384,8 +384,9 @@ const OurWork: React.FC<OurWorkProps> = ({ isLogoDesignPage, isWebPage, isMobile
                                     >
                                         <Image
                                             src={image}
-                                            alt="Gallery"
+                                            alt={name}
                                             fill
+                                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                         />
                                         <div className="gallery-content">
                                             <div className="gallery-content-inner">
