@@ -3,39 +3,36 @@
 import React from 'react';
 import TextSlider from '../TextSlider';
 import Image from 'next/image';
-import './home-banner.scss';
 import { useRouter } from 'next/navigation';
+import './banner-two.scss';
 
-const HomeBanner: React.FC = () => {
-
+const HomeBannerTwo: React.FC = () => {
     const router = useRouter();
 
     const textArray: string[] = [
-        "Custom Web Design",
-        "WhatsApp Chatbot Development",
-        "Custom Software Solutions",
-        "Web Application",
-        "Mobile App Development",
-        "Enterprise Software",
-        "Desktop Applications",
-        "Product Development",
-        "AI/ML Solutions",
-        "Cloud/DevOps Solutions"
+        "to Save on Local Hiring and Reduce Overhead costs?",
+        "Access to top talent dedicated experts working for you?",
+        "Build flexible teams that scale fast effortlessly?",
+        "Timely delivery and stay ahead?",
+        "Premium quality at budget - friendly rates?",
+        "24/7 productivity across time zones?",
+        "to Hire dedicated  team for product development",
+        "Minimize risks and Boost Profit Margins?",
+        "A trusted tech Partnership for long - term?"
     ];
 
     return (
-        <section className="d-flex align-items-center position-relative vh-90hirepag cover  custom-sft-banner sw-development-banner">
+        <section className="d-flex align-items-center position-relative vh-90hirepag cover custom-sft-banner sw-development-banner">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-12 col-xl-8 col-lg-12 col-md-12 mplp">
-                        <h1 className="clor pt-3 pb-2">
-                            Your Idea, Our Code
-                        </h1>
+                        <h1 className="clor pt-3 pb-2">Do you want</h1>
+
                         <TextSlider textArray={textArray} />
-                        <p className="clor fw-bold">
-                            Empower Innovation: We Build Scalable, Custom Web & Software Solutions. With over 10 years of expertise, we serve startups and enterprises, driving real results and business success. Let’s bring your vision to life!
-                        </p>
-                        <div className='action-buttons-alignment'>
+
+                        <br /><br />
+
+                        <div className="action-buttons-alignment">
                             <button
                                 type="button"
                                 className="btn button getQuoteBtn"
@@ -59,15 +56,12 @@ const HomeBanner: React.FC = () => {
                                     href="https://g.co/kgs/nTFb6tA"
                                     target="_blank"
                                     rel="noopener"
-
                                 >
                                     <Image
-                                        data-lazyloaded={1}
-                                        src='/images/home-banner/google-rating-svg.webp'
+                                        src="/images/home-banner/google-rating-svg.webp"
                                         alt="Google"
                                         width={97}
                                         height={56}
-                                        data-ll-status="loaded"
                                         className="entered litespeed-loaded"
                                     />
                                 </a>
@@ -79,7 +73,6 @@ const HomeBanner: React.FC = () => {
                                     rel="noopener nofollow"
                                 >
                                     <Image
-                                        data-lazyloaded={1}
                                         src="/images/home-banner/clutch-rating-svg.webp"
                                         alt="Clutch"
                                         width={99}
@@ -95,30 +88,21 @@ const HomeBanner: React.FC = () => {
                                     rel="noopener nofollow"
                                 >
                                     <Image
-                                        data-lazyloaded={1}
                                         src="/images/home-banner/goodfirm-rating-svg.webp"
-                                        decoding="async"
                                         alt="GoodFirms"
                                         width={135}
                                         height={56}
-                                        data-ll-status="loaded"
                                         className="entered litespeed-loaded"
                                     />
                                 </a>
                             </div>
                         </div>
-                        <p className='text-white vision'>
-                            Quality Focus | Customer Centric | Insights Driven
-                        </p>
                     </div>
-                    <div className="col-12 col-md-5 d-lg-block d-md-block d-none">
-
-                    </div>
+                    <div className="col-12 col-md-4 d-lg-block d-md-block d-none">{/* Reserved space */}</div>
                 </div>
             </div>
         </section>
+    );
+};
 
-    )
-}
-
-export default HomeBanner;
+export default HomeBannerTwo;

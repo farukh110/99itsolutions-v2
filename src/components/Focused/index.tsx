@@ -40,6 +40,7 @@ const Focused: React.FC = () => {
                                         width={60}
                                         height={60}
                                         className="img-fluid mx-auto d-block"
+                                        style={{ height: "auto", width: "auto" }}
                                     />
                                 </div>
                                 <div className="col-md-7 col-sm-8 col-8 p-0">
