@@ -37,7 +37,7 @@ const Banner: React.FC<BannerProps> = ({
                                 />
                                 <div className="input-group-append ps-2">
                                     <button className="btn btn-primary h-100 btn-subscribe" type="button">
-                                        Let's Start
+                                        Let&apos;s Start
                                     </button>
                                 </div>
                             </div>

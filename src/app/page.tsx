@@ -11,7 +11,7 @@ import Benefits from "@/components/benefits";
 import Technologies from "@/components/Techologies";
 import "./home.scss";
 
-export default function Home(): JSX.Element {
+export default function Home(): React.ReactElement {
   return (
     <>
       <HomeBanner />

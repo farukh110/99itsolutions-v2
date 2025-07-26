@@ -41,7 +41,7 @@ const OutSourcing: React.FC = () => {
 
                 <p>
                     At 99ITsolutions.com, we specialize in web design, software and product
-                    development as your dedicated outsourcing partner. Whether you're
+                    development as your dedicated outsourcing partner. Whether you&apos;re
                     looking to optimize your budget, scale operations, or meet tight
                     deadlines, our expert team is here to help.
                 </p>
@@ -77,7 +77,7 @@ const OutSourcing: React.FC = () => {
                             {
                                 title: "No Need to Downsize Your Team",
                                 desc:
-                                    "We help manage workload overflow so you don’t have to lay off employees—just scale smarter.",
+                                    "We help manage workload overflow so you don&apos;t have to lay off employees—just scale smarter.",
                             },
                         ].map((item, idx) => (
                             <li key={idx}>
@@ -107,7 +107,7 @@ const OutSourcing: React.FC = () => {
 
                         <p className="text-center">
                             Experience our quality, speed, and professionalism firsthand with a
-                            small trial project. We’re confident you’ll see the difference.
+                            small trial project. We&apos;re confident you&apos;ll see the difference.
                         </p>
 
                         <CustomHeading
@@ -117,12 +117,12 @@ const OutSourcing: React.FC = () => {
                         />
 
                         <p className="text-center">
-                            Refer businesses to us and enjoy exclusive rewards. Let’s grow
+                            Refer businesses to us and enjoy exclusive rewards. Let&apos;s grow
                             together!
                         </p>
 
                         <CustomHeading
-                            firstWord="Let’s Connect How"
+                            firstWord="Let&apos;s Connect How"
                             lastWord="We Can Help You!"
                             textCenter="text-center mt-md-4"
                         />
@@ -131,8 +131,8 @@ const OutSourcing: React.FC = () => {
                             Your success starts with a conversation Ready to get started?
                             Schedule a free consultation quick video call via Zoom or Google
                             Meeting to discuss your outsourcing needs today and discover how
-                            outsourcing can help you scale and save. We’re here to be your
-                            reliable partner in success. Let’s scale your business together!
+                            outsourcing can help you scale and save. We&apos;re here to be your
+                            reliable partner in success. Let&apos;s scale your business together!
                         </p>
 
                         <button

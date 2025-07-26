@@ -121,7 +121,7 @@ const Contact: React.FC = () => {
                 <div className="col-xl-6 col-lg-6 col-md-12">
                   <div className="what_next_headings">
                     <h4 className="next_hea">READY, SET , GO !</h4>
-                    <h1>WHAT'S NEXT ?</h1>
+                    <h1>WHAT&apos;S NEXT ?</h1>
                   </div>
                 </div>
 
@@ -135,7 +135,7 @@ const Contact: React.FC = () => {
                     <div className="col-lg-6 mt-md-2">
                       <div className="proposal">
                         <h5>Prepare a proposal</h5>
-                        <p className="mt-3">We’ve sat with you and discussed all your requirements in detail. Time to put it on paper.</p>
+                        <p className="mt-3">We&apos;ve sat with you and discussed all your requirements in detail. Time to put it on paper.</p>
                       </div>
                     </div>
                   </div>
@@ -152,7 +152,7 @@ const Contact: React.FC = () => {
                       <div className="proposal">
                         <h5>Discuss it</h5>
                         <p className="mt-3">
-                          Internally, your project team starts to form, lots of brainstorming and strategizing done to work out what’s best for you.
+                          Internally, your project team starts to form, lots of brainstorming and strategizing done to work out what&apos;s best for you.
                         </p>
                       </div>
                     </div>

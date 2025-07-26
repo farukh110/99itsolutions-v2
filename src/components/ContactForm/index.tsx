@@ -96,7 +96,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ customPadding }) => {
     return (
         <div className='contact-form-section pt-md-4 pt-5 pb-md-4 pb-5'>
             <div className='container form-container my-md-5 my-4'>
-                <h2 className='text-center'>Let's Talk Business</h2>
+                <h2 className='text-center'>Let&apos;s Talk Business</h2>
 
                 <Formik
                     initialValues={initialValues}

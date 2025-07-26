@@ -17,7 +17,7 @@ const NotFound: React.FC = () => {
                         <h1 className="four-zero-four-title mb-0">404</h1>
                         <h5 className="not_found_text">This page is outside of the universe</h5>
                         <p className="text-center">
-                            It seems the page you're looking for wandered off. Let's get you back on track!
+                            It seems the page you&apos;re looking for wandered off. Let&apos;s get you back on track!
                         </p>
                         <button
                             onClick={() => router.push('/')}
