@@ -44,7 +44,13 @@ const Drawer: React.FC<DrawerProps> = ({ drawer, action }) => {
                                     href="/"
                                     className="offcanvas-brand text-center mb-40 d-block"
                                 >
-                                    <Image src="/images/logo.png" fill alt="" />
+                                    <Image
+                                        src="/images/logo.png"
+                                        alt="Logo"
+                                        width={200}
+                                        height={0}
+                                        style={{ height: 'auto' }}
+                                    />
                                 </Link>
                                 <div id="menu" className="text-left ">
                                     <ul className="offcanvas_main_menu">
