@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
+    "target": "ES2020",
     "lib": [
       "dom",
       "dom.iterable",
@@ -17,6 +17,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "forceConsistentCasingInFileNames": true,
     "paths": {
       "@/*": [
         "./src/*"
@@ -37,7 +38,8 @@
     "**/*.ts",
     "**/*.tsx",
     "src/types/**/*.d.ts",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "next.config.ts"
   ],
   "exclude": [
     "node_modules"
