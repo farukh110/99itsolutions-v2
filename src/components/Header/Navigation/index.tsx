@@ -12,7 +12,7 @@ interface NavigationProps {
 const Navigation: React.FC<NavigationProps> = ({ className = '' }) => {
 
     const pathname = usePathname();
-    const [activeItem, setActiveItem] = useState<string>(pathname);
+    const [activeItem, setActiveItem] = useState<string>(pathname || '');
 
     useEffect(() => {
         if (pathname) {

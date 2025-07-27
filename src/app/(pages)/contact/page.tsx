@@ -1,11 +1,18 @@
-'use client';
+// 'use client';
 
 import React from 'react';
+import { Metadata } from 'next';
 import CustomBanner from '@/components/CustomBanner';
 import CustomHeading from '@/components/heading';
 import ContactForm from '@/components/ContactForm';
 import Image from 'next/image';
 import './index.scss';
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description:
+    "At 99Itsolutions, our focus is you. Our expert team comprises of professionals with varying business skillsets so we can better understand your needs, and put our money where our mouth is in offering you top-tier solutions. From the start to finish of your digital requirements, and beyond we are here to help.",
+};
 
 const Contact: React.FC = () => {
   return (
@@ -121,7 +128,7 @@ const Contact: React.FC = () => {
                 <div className="col-xl-6 col-lg-6 col-md-12">
                   <div className="what_next_headings">
                     <h4 className="next_hea">READY, SET , GO !</h4>
-                    <h1>WHAT'S NEXT ?</h1>
+                    <h1>WHAT&apos;S NEXT ?</h1>
                   </div>
                 </div>
 
@@ -135,7 +142,7 @@ const Contact: React.FC = () => {
                     <div className="col-lg-6 mt-md-2">
                       <div className="proposal">
                         <h5>Prepare a proposal</h5>
-                        <p className="mt-3">We’ve sat with you and discussed all your requirements in detail. Time to put it on paper.</p>
+                        <p className="mt-3">We&apos;ve sat with you and discussed all your requirements in detail. Time to put it on paper.</p>
                       </div>
                     </div>
                   </div>
@@ -152,7 +159,7 @@ const Contact: React.FC = () => {
                       <div className="proposal">
                         <h5>Discuss it</h5>
                         <p className="mt-3">
-                          Internally, your project team starts to form, lots of brainstorming and strategizing done to work out what’s best for you.
+                          Internally, your project team starts to form, lots of brainstorming and strategizing done to work out what&apos;s best for you.
                         </p>
                       </div>
                     </div>

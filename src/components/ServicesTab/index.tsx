@@ -60,7 +60,7 @@ const ServicesTab: React.FC = () => {
                                     <p>
                                         Our vision is to be your trusted technology partner and a global leader in delivering
                                         best and unique design, software development and marketing services to improve our
-                                        clients' productivity and business strength.
+                                        clients&apos; productivity and business strength.
                                     </p>
                                 </div>
                             </div>

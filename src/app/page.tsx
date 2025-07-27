@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
 import HomeBanner from "@/components/HomeBanner";
 import OurWork from "@/components/OurWork";
@@ -11,7 +12,13 @@ import Benefits from "@/components/benefits";
 import Technologies from "@/components/Techologies";
 import "./home.scss";
 
-export default function Home(): JSX.Element {
+export const metadata: Metadata = {
+
+  description: "99 IT Solutions is a leading technology innovator with over 10 years of industry expertise, delivering cutting-edge digital solutions and software outsourcing services to SMEs worldwide."
+
+};
+
+export default function Home(): React.ReactElement {
   return (
     <>
       <HomeBanner />
