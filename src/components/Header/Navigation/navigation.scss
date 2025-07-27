@@ -16,6 +16,33 @@
             }
         }
     }
+
+    .sub-menu {
+
+        li {
+
+            a {
+
+                &:hover {
+
+                    background-color: #e6e3ff !important;
+                    border: 2px solid #e6e3ff !important;
+                }
+
+                &:active {
+
+                    background-color: #e6e3ff !important;
+                    border: 2px solid #e6e3ff !important;
+                }
+
+                &:focus {
+
+                    background-color: #e6e3ff !important;
+                    border: 2px solid #e6e3ff !important;
+                }
+            }
+        }
+    }
 }
 
 .nav-home-one.restly-header-main-menu .sub-menu>li {
