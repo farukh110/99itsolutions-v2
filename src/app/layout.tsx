@@ -18,8 +18,11 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "99 IT Solutions",
-  description: "Next.js 15 + Bootstrap setup",
+  title: {
+    template: "%s | 99 IT Solutions",
+    default: "99 IT Solutions",
+  },
+  description: "99 IT Solutions is a leading technology innovator with over 10 years of industry expertise, delivering cutting-edge digital solutions and software outsourcing services to SMEs worldwide.",
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },

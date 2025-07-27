@@ -1,4 +1,5 @@
 import React from 'react';
+import { Metadata } from 'next';
 import Banner from '@/components/Banner';
 import CustomHeading from '@/components/heading';
 import Skills from '@/components/Skills';
@@ -6,6 +7,11 @@ import AboutDetails from '@/components/AboutDetails';
 import OurWork from '@/components/OurWork';
 import ContactForm from '@/components/ContactForm';
 import Technologies from '@/components/Techologies';
+
+export const metadata: Metadata = {
+    title: "App Design and Development",
+    description: "In a digital era dominated by apps and websites, we understand the critical importance of exceptional design. Our primary objective is to craft applications that not only enhance your brand image but also surpass your expectations.",
+};
 
 interface Point {
     id: number;

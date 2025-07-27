@@ -1,11 +1,18 @@
-'use client';
+// 'use client';
 
 import React from 'react';
+import { Metadata } from 'next';
 import CustomBanner from '@/components/CustomBanner';
 import CustomHeading from '@/components/heading';
 import ContactForm from '@/components/ContactForm';
 import Image from 'next/image';
 import './index.scss';
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+  description:
+    "At 99Itsolutions, our focus is you. Our expert team comprises of professionals with varying business skillsets so we can better understand your needs, and put our money where our mouth is in offering you top-tier solutions. From the start to finish of your digital requirements, and beyond we are here to help.",
+};
 
 const Contact: React.FC = () => {
   return (

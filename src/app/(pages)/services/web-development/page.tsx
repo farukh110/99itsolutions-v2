@@ -1,4 +1,5 @@
 import React from 'react';
+import { Metadata } from 'next';
 import Banner from '@/components/Banner';
 import CustomHeading from '@/components/heading';
 import Skills from '@/components/Skills';
@@ -8,6 +9,10 @@ import ContactForm from '@/components/ContactForm';
 import Technologies from '@/components/Techologies';
 import './web-dev.scss';
 
+export const metadata: Metadata = {
+    title: "Web Development",
+    description: "Your website is possibly your most crucial marketing tool, and if it's not helping your business grow, it might be time for a fresh one. Research shows that 75% of customers assess a company's trustworthiness by evaluating its website design.",
+};
 interface Point {
     id: number;
     point: string;

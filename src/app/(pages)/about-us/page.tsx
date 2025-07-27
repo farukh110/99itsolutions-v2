@@ -1,6 +1,7 @@
-'use client';
+// 'use client';
 
 import React from 'react';
+import { Metadata } from 'next';
 import CustomBanner from '@/components/CustomBanner';
 import CustomHeading from '@/components/heading';
 import CustomSubHeading from '@/components/sub-heading/CustomSubHeading';
@@ -9,6 +10,11 @@ import Focused from '@/components/Focused';
 import Counters from '@/components/Counters';
 import Technologies from '@/components/Techologies';
 import Clients from '@/components/Clients';
+
+export const metadata: Metadata = {
+    title: "About Us",
+    description: "Since 2015, 99 IT Solutions has been delivering cutting-edge technology solutions to businesses worldwide. We specialize in web and software development, product development, WhatsApp Business API and chatbot integrations, DevOps, solutions architecture, IT outsourcing, and consulting. Our team of experienced professionals is dedicated to providing high-quality solutions tailored to your business needs.",
+};
 
 const AboutUs: React.FC = () => {
     return (

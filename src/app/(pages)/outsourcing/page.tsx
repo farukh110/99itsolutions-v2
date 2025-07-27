@@ -1,6 +1,7 @@
-"use client";
+// "use client";
 
 import React from "react";
+import { Metadata } from "next";
 import CustomHeadingTwo from "@/components/heading/HeadingTwo";
 import CustomHeading from "@/components/heading";
 import Process from "@/components/Process";
@@ -11,12 +12,16 @@ import OutSourcingServiceTwo from "@/components/OutSourcingServiceTwo";
 import OutsourcingServices from "@/components/OutsourcingServices";
 import MainServicesTwo from "@/components/MainServicesTwo";
 import ProductsCatalog from "@/components/ProductsCatalog";
-import { useRouter } from "next/navigation";
+import ContactButton from "@/components/controls/ContactButton";
 import "./outsourcing.scss";
 
-const OutSourcing: React.FC = () => {
+export const metadata: Metadata = {
+    title: "Outsourcing",
+    description:
+        "At 99ITsolutions.com, we specialize in web design, software and product development as your dedicated outsourcing partner. Whether you're looking to optimize your budget, scale operations, or meet tight deadlines, our expert team is here to help.",
+};
 
-    const router = useRouter();
+const OutSourcing: React.FC = () => {
 
     return (
         <>
@@ -134,13 +139,7 @@ const OutSourcing: React.FC = () => {
                             outsourcing can help you scale and save. We&apos;re here to be your
                             reliable partner in success. Let&apos;s scale your business together!
                         </p>
-
-                        <button
-                            onClick={() => router.push("/contact")}
-                            className="btn btn-primary btn-connect mx-auto d-block"
-                        >
-                            Contact Us Today!
-                        </button>
+                        <ContactButton />
                     </div>
                 </div>
             </div>

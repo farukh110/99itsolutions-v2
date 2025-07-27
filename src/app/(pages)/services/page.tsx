@@ -1,9 +1,16 @@
-'use client';
+// 'use client';
 
+import { Metadata } from "next";
 import React from "react";
 import CustomBanner from "@/components/CustomBanner";
 import CustomHeading from "@/components/heading";
 import './services.scss';
+
+export const metadata: Metadata = {
+    title: "What We Do",
+    description:
+        "You get amazingly cost-effective rates for App Development Services, SMM, SEO, Branding and all your digital transformation needs, thanks to our project collaboration setup.",
+};
 
 const servicesData: {
     title: string;
@@ -117,7 +124,7 @@ const Services: React.FC = () => {
                                     <div className="ag-courses_box">
                                         <div className="ag-courses_item">
                                             <a
-                                                href={service.href}
+                                                // href={service.href}
                                                 aria-label={service.title}
                                                 className="ag-courses-item_link ag-courses-item_link-index"
                                                 target="_blank"
